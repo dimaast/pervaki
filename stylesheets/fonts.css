@@ -1,17 +1,31 @@
 @font-face {
-  font-family: "TT Fors Trial";
-  src: url("../fonts/TT-Fors-Trial-Regular.ttf");
-  src: local("TT Fors"), local("TT Fors Trial"),
-  url("../fonts/TT-Fors-Trial-Regular.ttf") format("truetype");
+  font-family: 'Aeonik Pro';
+  src: url('../fonts/AeonikPro-Regular.otf') format('opentype'),
+    url('../fonts/AeonikPro-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "TT Fors Trial";
-  src: url("../fonts/TT-Fors-Trial-Bold.ttf");
-  src: local("TT Fors"), local("TT Fors Trial"),
-  url("../fonts/TT-Fors-Trial-Bold.ttf") format("truetype");
+  font-family: 'Aeonik Pro';
+  src: url('../fonts/AeonikPro-RegularItalic.otf') format('opentype'),
+    url('../fonts/AeonikPro-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url('../fonts/AeonikPro-Bold.otf') format('opentype'),
+    url('../fonts/AeonikPro-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url('../fonts/AeonikPro-BoldItalic.otf') format('opentype'),
+    url('../fonts/AeonikPro-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
 }

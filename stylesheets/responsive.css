@@ -1,0 +1,6 @@
+@media only screen and (min-width: 360px) and (max-device-width: 768px)
+body.about .navigation {
+  .block1 {
+    margin: 0vw 1vw 0vw 3vw;
+  }
+}
